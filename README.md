@@ -1,6 +1,13 @@
-# Dynamic Shared Library with CMake and Autohotkey
+# Dynamic Shared Library with CMake, C++, and Autohotkey
 
-Recommended readings:
+### How to run
+
+- Configure the CMake project by running `configure_module.bat`.
+- Build the CMake project by running `build_module.bat`.
+- For autohotkey unit testing run `run.bat`.
+- Normal debugging is enabled by using vscode `F5`.
+
+### Recommended readings
 
 1. [VSCode Debugging documentation](https://code.visualstudio.com/docs/editor/debugging).
 2. [Autohotkey DllCall](https://www.autohotkey.com/boards/viewtopic.php?t=4644).
