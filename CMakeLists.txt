@@ -24,8 +24,8 @@ set(HEADERS
 
 add_library(${target_name} SHARED ${SOURCE} ${HEADERS}) # SHARED libraries are intended for other targets to link against, whereas MODULE libraries are not.
 
-add_executable(debug debug.cpp ${HEADERS})
-target_link_libraries(debug ${target_name})
+add_executable(debug debug.cpp)
+target_link_libraries(debug debug ${target_name})
 
 set_target_properties(${target_name} PROPERTIES
  FRAMEWORK TRUE
